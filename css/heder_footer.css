@@ -1,6 +1,5 @@
 footer{
     width: 100%;
-    margin-top: 1%;
     padding-top: 5%;
     padding-bottom: 2%;
     background: linear-gradient(#ffffff, #e0cd5c);  
@@ -30,7 +29,7 @@ div.content_title_footer{
     height: 20vh;
     margin-right: 1%;
     margin-left: 1%;
-    float: left;
+    float: right;
 }
 div.horizontal_delimiter{
     background-color: rgb(121, 118, 118);
