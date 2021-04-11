@@ -22,10 +22,17 @@ footer{
 }
 #contact_us{
     text-align: right;
-    font-size: 80%;
+    font-size: 70%;
 }
 div.content_title_footer{
-    width: 48%;
+    width: 44%;
+    height: 20vh;
+    margin-right: 1%;
+    margin-left: 1%;
+    float: right;
+}
+div.content_info_footer{
+    width: 25%;
     height: 20vh;
     margin-right: 1%;
     margin-left: 1%;
@@ -40,6 +47,14 @@ div.horizontal_delimiter{
     height: 1px;
     width: 99%;
     float: center;
+}
+a.link_nav{
+    text-decoration: none;
+    text-align: right;
+    color: black;
+    padding-bottom: 2%;
+    display: inline-block;
+    margin: auto;
 }
 div.clear{
     clear: both;

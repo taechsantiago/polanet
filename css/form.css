@@ -1,0 +1,55 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0%;
+}
+img#header{
+    width:100%;
+    height:100%;
+
+}
+section#image{
+    width: 50%;
+
+    float: left;
+}
+section#form{
+    width: 49%;
+    float: left;
+    margin-left: 1%;
+}
+#date-sex{
+    width: 100%;
+    border: none;
+    padding: 0%;
+}
+#content_date,#content_sex{
+    width: 50%;
+    float: left;
+    border: none;
+    padding: 0%;
+}
+#personal_data{
+    width: 50%;
+    float: left;
+    padding-bottom: 0%;
+}
+#typebeer_data{
+    width: 34%;
+    float: left;
+    padding-bottom: 0%; 
+    margin-bottom: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#send_button{
+    background-color: #e0cd5c;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 2px;
+    margin-left: 15%;
+    margin-right: 10%;
+}
