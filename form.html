@@ -7,73 +7,80 @@
     <title>PolaNet Registro</title>
     <link rel="icon" type="image/png" href="./media/beer.png" />
     <link rel="stylesheet" type="text/CSS" href="./css/form.css" media="screen">
-    <link rel="stylesheet" type="text/CSS" href="./css/heder_footer.css" media="screen">
+    <link rel="stylesheet" type="text/CSS" href="./css/header_footer.css" media="screen">
 </head>
 <body>
-    <div style="margin-bottom: 5%;">
+    <div>
         <section id="image">
-            <img id="header" src="./media/logo images/baner_2.png" alt="Beer cheers in a field">
+            <div id="banner_top"></div>
+            <div id="banner_bottom"></div>
+            <div id="baner_container">
+                <img id="baner_title" src="./media/logo images/polanet_bubbles.png" alt="The title of the page but in a image more cute">
+            </div>
+            <div class="clear"></div>
         </section>
         <section id="form">
-            <h1 style="margin-bottom: 1%;">Crear una cuenta</h1>
-            <form action="./feed.html" method="post" target="_self">
-                <fieldset id="personal_data">
-                    <legend>Datos b&aacute;sicos</legend>
-                    <input type="text" name="name" placeholder="Nombre" pattern="[a-zA-Z ]{2,254}" required>
-                    <input type="text" name="lastname" placeholder="Apellido" pattern="[a-zA-Z ]{2,254}" required><br><br>
-                    <input type="text" name="nickname" placeholder="Nombre de usuario" size="44" required><br><br>
-                    <input type="email" name="email" placeholder="Correo electrónico" size="44" required><br><br>
-                    <input type="tel" name="phone" placeholder="Número de celular" pattern="[0-9]{10}" size="44" required><br><br>
-                    <input type="password" name="pwd" placeholder="Contraseña nueva" size="44" required><br><br>
-                    <fieldset id="date-sex">
-                        <fieldset id="content_date">
-                            <label for="birthday">Fecha de nacimiento</label><br>
-                            <input type="date" id="birthday" name="birthday" required><br><br>
+            <div style="margin-top: 20%;">
+                <h1 style="margin-bottom: 1%;">Crear una cuenta</h1>
+                <form action="./feed.html" method="post" target="_self">
+                    <fieldset id="personal_data">
+                        <legend>Datos b&aacute;sicos</legend>
+                        <input type="text" name="name" placeholder="Nombre" pattern="[a-zA-Z ]{2,254}" required>
+                        <input type="text" name="lastname" placeholder="Apellido" pattern="[a-zA-Z ]{2,254}" required><br><br>
+                        <input type="text" name="nickname" placeholder="Nombre de usuario" size="44" required><br><br>
+                        <input type="email" name="email" placeholder="Correo electrónico" size="44" required><br><br>
+                        <input type="tel" name="phone" placeholder="Número de celular" pattern="[0-9]{10}" size="44" required><br><br>
+                        <input type="password" name="pwd" placeholder="Contraseña nueva" size="44" required><br><br>
+                        <fieldset id="date-sex">
+                            <fieldset id="content_date">
+                                <label for="birthday">Fecha de nacimiento</label><br>
+                                <input type="date" id="birthday" name="birthday" required><br><br>
+                            </fieldset>
+                            <fieldset id="content_sex">
+                                <label for="sex">Sexo</label><br>
+                                <select id="sex" name="sex">
+                                    <option value="man">Masculino</option>
+                                    <option value="girld">Femenino</option>
+                                    <option value="other">Otro</option>
+                                </select><br><br>
+                            </fieldset>
+                            <div class="clear"></div>
                         </fieldset>
-                        <fieldset id="content_sex">
-                            <label for="sex">Sexo</label><br>
-                            <select id="sex" name="sex">
-                                <option value="man">Masculino</option>
-                                <option value="girld">Femenino</option>
-                                <option value="other">Otro</option>
-                            </select><br><br>
-                        </fieldset>
-                        <div class="clear"></div>
+                        <label>Foto de perfil</label><br>
+                        <input type="file" name="photo" required><br><br>
                     </fieldset>
-                    <label>Foto de perfil</label><br>
-                    <input type="file" name="photo" required><br><br>
-                </fieldset>
-                <fieldset id="typebeer_data">
-                    <legend>Gustos cerveceros</legend>
-                    <label>Tipos más comunes</label><br>
-                    <input type="checkbox" id="Ale" name="Ale" value="Ale">
-                    <label for="Ale"> Ale</label><br>
-                    <input type="checkbox" id="Lager" name="Lager" value="Lager">
-                    <label for="Lager"> Lager</label><br>
-                    <input type="checkbox" id="Lambic" name="Lambic" value="Lambic">
-                    <label for="Lambic"> Lambic</label><br>
-                    <input type="checkbox" id="Stout" name="Stout" value="Stout">
-                    <label for="Stout"> Stout</label><br>
-                    <input type="checkbox" id="Porter" name="Porter" value="Porter">
-                    <label for="Porter"> Porter</label><br><br>
-                    <label>Tipos especiales</label><br>
-                    <input type="checkbox" id="Steam_beer" name="Steam_beer" value="Steam_beer">
-                    <label for="Steam_beer"> Steam beer</label><br>
-                    <input type="checkbox" id="Rauchbier" name="Rauchbier" value="Rauchbier">
-                    <label for="Rauchbier"> Rauchbier</label><br>
-                    <input type="checkbox" id="Steinbier" name="Steinbier" value="Steinbier">
-                    <label for="Steinbier"> Steinbier</label><br>
-                    <input type="checkbox" id="Schwarzbier" name="Schwarzbier" value="Schwarzbier">
-                    <label for="Schwarzbier"> Schwarzbier</label><br><br>
-                </fieldset>
-                <input id="send_button" type="submit" name="enviar" value="Enviar">             
-                <article style="float: right;">
-                    <p>Marcar las clases/tipos de cerveza que prefieres no es necesario 
-                        para completar el registro e igual se puede seleccionar desde 
-                        configuración luego.</p>
-                </article>            
-                <div class="clear"></div>
-            </form>
+                    <fieldset id="typebeer_data">
+                        <legend>Gustos cerveceros</legend>
+                        <label>Tipos más comunes</label><br>
+                        <input type="checkbox" id="Ale" name="Ale" value="Ale">
+                        <label for="Ale"> Ale</label><br>
+                        <input type="checkbox" id="Lager" name="Lager" value="Lager">
+                        <label for="Lager"> Lager</label><br>
+                        <input type="checkbox" id="Lambic" name="Lambic" value="Lambic">
+                        <label for="Lambic"> Lambic</label><br>
+                        <input type="checkbox" id="Stout" name="Stout" value="Stout">
+                        <label for="Stout"> Stout</label><br>
+                        <input type="checkbox" id="Porter" name="Porter" value="Porter">
+                        <label for="Porter"> Porter</label><br><br>
+                        <label>Tipos especiales</label><br>
+                        <input type="checkbox" id="Steam_beer" name="Steam_beer" value="Steam_beer">
+                        <label for="Steam_beer"> Steam beer</label><br>
+                        <input type="checkbox" id="Rauchbier" name="Rauchbier" value="Rauchbier">
+                        <label for="Rauchbier"> Rauchbier</label><br>
+                        <input type="checkbox" id="Steinbier" name="Steinbier" value="Steinbier">
+                        <label for="Steinbier"> Steinbier</label><br>
+                        <input type="checkbox" id="Schwarzbier" name="Schwarzbier" value="Schwarzbier">
+                        <label for="Schwarzbier"> Schwarzbier</label><br><br>
+                    </fieldset>
+                    <input id="send_button" type="submit" name="enviar" value="Enviar">
+                    <article style="width: 55%; float: left;">
+                        <p style="text-align: justify;">Marcar las clases/tipos de cerveza que prefieres no es necesario 
+                            para completar el registro e igual se puede seleccionar desde 
+                            configuración luego.</p>
+                    </article>         
+                    <div class="clear"></div>
+                </form>
+            </div>
         </section>
         <div class="clear"></div>
     </div>
@@ -96,8 +103,8 @@
                 <p id="contact_us">
                     <a class="link_nav" href="./index.html" target="_self">Inicio</a><br>
                     <a class="link_nav" href="./form.html" target="_self">Registro</a><br>
-                    <a class="link_nav" href="./feed.html" target="_self">feed</a><br>
-                    <a class="link_nav" href="./calog.html" target="_self">catálogo</a><br>
+                    <a class="link_nav" href="./feed.html" target="_self">Feed</a><br>
+                    <a class="link_nav" href="./calog.html" target="_self">Catálogo</a><br>
                     <a class="link_nav" href="./profile.html" target="_self">Perfil social</a><br>
                 </p>
             </div>

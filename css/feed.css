@@ -1,0 +1,42 @@
+body{
+    background-color: #efa53d;
+}
+p{text-align: justify;}
+article{
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 1%;
+    margin-top: 10%;
+    float: left;
+    background-color: white;
+}
+aside{
+    width: 28%;
+    height: 70vh;
+    margin-left: 1%;
+    margin-right: 5%;
+    margin-top: 10%;
+    float: right;
+    background-color: white;
+}
+div.new{
+    width: 90%;
+    height: 200px;
+    margin: 5% 2%;
+    border: 1px;
+    border-color: rgb(121, 118, 118);
+    border-style: solid;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.26);
+}
+div.text_new{
+    width: 70%;
+    margin-left: 1%;
+    margin-right: 1%;
+    float: left;
+}
+img.img_new{
+    width: 25%;
+    margin-right: 1%;
+    margin-top: 1%;
+    float: right;
+}

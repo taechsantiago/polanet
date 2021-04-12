@@ -1,7 +1,3 @@
-*{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0%;
-}
 header{
     width: 100%;
     height: 100vh;
@@ -13,20 +9,17 @@ section{
     width: 100%;
     height: 60vh;
 }
-
 aside{
     width: 20%;
     margin-right: 0.5%;
     margin-left: 0.5%;
 }
-
 article{
     width: 55%;
     margin-right: 0.4%;
     margin-left: 0.4%;
     padding: 0.4%;
 }
-
 article, aside{
     height: 100%;
     margin-top: 1%;
@@ -35,27 +28,12 @@ article, aside{
 p{
     text-align: justify;
 }
+
 img#header{
     width: 100%;
     height: 100%;
     object-fit: cover;
     opacity: 0.5;
-}
-img#funder{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-a#button{
-    text-decoration: none;
-    background-color: #e0cd5c;
-    color: black;
-    padding: 15px 32px;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 4px;
-    margin: auto;
-    margin-top: 2px;
 }
 .header_container{
     position: absolute; 
@@ -81,6 +59,23 @@ a#button{
     margin: 0%;
     font-size: 10px;
     color: rgb(199, 193, 193);
+}
+
+img#funder{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+a#button{
+    text-decoration: none;
+    background-color: #efa53d;
+    color: black;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 2px;
 }
 #image_funder{
     width: 50%;
