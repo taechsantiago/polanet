@@ -4,7 +4,7 @@ section#image{
     float: left;
     position: relative;
 }
-div#banner_top, div#banner_bottom{
+div#banner_top1, div#banner_bottom{
     height: 50vh;
 }
 div#banner_top{background-color: #ecf0f1;}
