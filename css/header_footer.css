@@ -1,22 +1,10 @@
+/* For all */
 *{
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0%;
 }
-header#general_header{
-    width: 100%;
-    height: 60px;
-    position: fixed;
-    background-color: #ecf0f1;
-}
-div#banner_top{
-    background-color: #ecf0f1;
-    height: 60px;
-}
-img#general_header_title{
-    float: left;
-    width: 15%;
-    margin-left: 1%;
-}
+
+/* Tags */
 nav{
     width: 50%;
     height: 40px;
@@ -25,22 +13,14 @@ nav{
     padding-top: 10px;
     background-color: #ecf0f1;
 }
-a.nav_bar{
-    text-decoration: none;
-    color: black;
-    padding-right: 5%;
-    padding-left: 5%;
-    padding-top: 20px;
-    display: inline-block;
-    margin: auto;
-    font-size: 16px;
-}
 footer{
     width: 100%;
     padding-top: 5%;
     padding-bottom: 2%;
     background: linear-gradient(#ffffff, #efa53d);
 }
+
+/* Classs and ID*/
 .footer_title{
     text-align: center;
     color: black;
@@ -60,6 +40,41 @@ footer{
 #contact_us{
     text-align: right;
     font-size: 70%;
+}
+
+/* TAG#ID and TAG.Class*/
+header#general_header{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: #ecf0f1;
+}
+img#general_header_title{
+    float: left;
+    width: 15%;
+    margin-left: 1%;
+}
+a.nav_bar{
+    text-decoration: none;
+    color: black;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 20px;
+    display: inline-block;
+    margin: auto;
+    font-size: 16px;
+}
+a.link_nav{
+    text-decoration: none;
+    text-align: right;
+    color: black;
+    padding-bottom: 2%;
+    display: inline-block;
+    margin: auto;
+}
+div#banner_top{
+    background-color: #ecf0f1;
+    height: 60px;
 }
 div.content_title_footer{
     width: 44%;
@@ -89,15 +104,6 @@ div.horizontal_delimiter_top{
     height: 1px;
     width: 84%;
     float: right;
-}
-
-a.link_nav{
-    text-decoration: none;
-    text-align: right;
-    color: black;
-    padding-bottom: 2%;
-    display: inline-block;
-    margin: auto;
 }
 div.clear{
     clear: both;
