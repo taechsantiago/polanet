@@ -4,10 +4,10 @@ section#image{
     float: left;
     position: relative;
 }
-div#banner_top1, div#banner_bottom{
+div#banner_top_form, div#banner_bottom{
     height: 50vh;
 }
-div#banner_top1{background-color: #ecf0f1;}
+div#banner_top_form{background-color: #ecf0f1;}
 div#banner_bottom{background-color: #efa53d;}
 div#baner_container{
     position: absolute;
