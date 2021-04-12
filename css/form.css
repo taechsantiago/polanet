@@ -7,7 +7,7 @@ section#image{
 div#banner_top1, div#banner_bottom{
     height: 50vh;
 }
-div#banner_top{background-color: #ecf0f1;}
+div#banner_top1{background-color: #ecf0f1;}
 div#banner_bottom{background-color: #efa53d;}
 div#baner_container{
     position: absolute;
