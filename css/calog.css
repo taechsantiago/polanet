@@ -1,0 +1,51 @@
+/* Tags */
+body{
+    background-color: #efa53d;
+}
+p{text-align: justify;}
+
+article{
+    margin-top: 10%;
+    background-color: white;
+    border-radius: 2px;
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 5%;
+    float: left;
+}
+figure{
+    margin: 2%;
+}
+
+/* TAG#ID and TAG.Class*/
+div.new{
+    width: 20%;
+    height: 15%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 1px;
+    border-radius: 3px;
+    border-color: rgb(121, 118, 118);
+    border-style: solid;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.26);
+    float: left;
+}
+img.img_new{
+    width: 98%;
+    width: 98%;
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.horizontal_delimiter_calog{
+    background-color: rgb(121, 118, 118);
+    height: 1px;
+    width: 97%;
+    margin: 2% 1%;
+    margin-bottom: 0%;
+    float: right;
+}
