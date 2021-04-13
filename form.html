@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta -->
     <meta charset="UTF-8">
     <meta name="keywords" content="html frontend web programming socialnetwork">
     <meta charset="author" content="SantiagoTabordaE">
+    
     <title>PolaNet Registro</title>
+    
+    <!-- Style -->
     <link rel="icon" type="image/png" href="./media/beer.png" />
     <link rel="stylesheet" type="text/CSS" href="./css/form.css" media="screen">
     <link rel="stylesheet" type="text/CSS" href="./css/header_footer.css" media="screen">
 </head>
 <body>
     <div>
-        <section id="image">
+        <section id="image"><!-- contenedor para lograr el diseño dividido con el logo en medio -->
             <div id="banner_top_form"></div>
             <div id="banner_bottom"></div>
             <div id="baner_container">
@@ -19,7 +23,7 @@
             </div>
             <div class="clear"></div>
         </section>
-        <section id="form">
+        <section id="form"><!-- Formulario -->
             <div style="margin-top: 20%;">
                 <h1 style="margin-bottom: 1%;">Crear una cuenta</h1>
                 <form action="./feed.html" target="_self">
@@ -85,16 +89,21 @@
         <div class="clear"></div>
     </div>
 
+    <!-- Se decide utilizar details para las referencias con el objetivo de que no sea muy invasivo con el diseño -->
     <details>
         <summary>Referencias.</summary>
         <ol>
+            <li>Documentación, ejemplos y buenas practicas en los que se apoyó para el desarrollo: <a href="https://www.w3schools.com" target="_blank">https://www.w3schools.com</a>.</li>
+            <br>
             <li>Logo y diseño propio.</li>
         </ol>
     </details>
 
+    <!-- El footer delimitado por una linea para diferenciar del cuerpo de la pagina -->
     <div class="horizontal_delimiter"></div>
     <footer>
         <div id="container_footer">
+            <!-- Nombre de la pagina, se decide no usar el logo para no sobrecargar al usuario -->
             <div class="content_info_footer">
                 <h1 id="footer_subtitle">Contacto creador</h1>
                 <br>
@@ -105,6 +114,7 @@
                     Universidad de Antioquia
                 </p>
             </div>
+            <!-- La navegación permite acceder a cualquier pagina desde cualquier otra -->
             <div class="content_info_footer">
                 <h1 id="footer_subtitle">Navegación</h1>
                 <br>
@@ -116,6 +126,7 @@
                     <a class="link_nav" href="./profile.html" target="_self">Perfil social</a><br>
                 </p>
             </div>
+            <!-- Información del creador -->
             <div class="content_title_footer">
                 <h1 class="footer_title" style="font-size: 50px;">PolaNet</h1>
                 <h5 class="footer_title">Red social cervecera</h5>

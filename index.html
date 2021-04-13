@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta -->
     <meta charset="UTF-8">
     <meta name="keywords" content="html frontend web programming socialnetwork">
     <meta charset="author" content="SantiagoTabordaE">
+    
     <title>PolaNet</title>
+    
+    <!-- Style -->
     <link rel="icon" type="image/png" href="./media/beer.png" />
     <link rel="stylesheet" type="text/CSS" href="./css/index.css" media="screen">
     <link rel="stylesheet" type="text/CSS" href="./css/header_footer.css" media="screen">
 </head>
 <body>
-    <header>
+    <header><!-- Header principal -->
         <img id="header_index" src="./media/images/header_home.jpg" alt="Beer cheers in a field">
         <div class="header_container">
-            <img id="header_title" src="./media/logo images/polanet_nobubbles2.png" alt="The title of the page but in a image more cute">
+            <img id="header_title" src="./media/logo images/polanet_nobubbles2.png" alt="The title of the page but in a image more cute"> <!-- Logo -->
             <div class="header_button">
                 <a id="button" href="./form.html" target="_self">Registrarse</a>
             </div>
         </div>
         <p id="header_image_credit">Foto: pixabay</p>
     </header>
+
+    <!-- La pagina se divide en 3 columnas aside - article - aside -->
     <section>
         <aside>
             <h2>Top 5 cervecero</h2>
-            <p><b>(Claramente artesanal)</b></p>
+            <p><b>(Claramente artesanal.)</b><br>Según el creador.</p>
             <ol>
                 <br>
                 <li>Mulata <a href="https://3cordilleras.com" target="_blank">3Cordilleras</a></li>
@@ -38,7 +44,7 @@
             </ol>
         </aside>
         <div class="vertical_delimiter"></div>
-        <article>
+        <article><!-- Descripción de la pagina -->
             <h3>PolaNet?  Nosotros</h3>
             <br>
             <p>PolaNet es una red social que nace del gusto por la cerveza de dos amigos y por la carencia de 
@@ -56,7 +62,7 @@
             </p>
         </article>
         <aside>
-            <div id="image_funder">
+            <div id="image_funder"><!-- Fotografia del creador (genera familiaridad con el usuario) -->
                 <img id="funder" src="./media/images/profile.jpg" alt="Funder of this page">
             </div>
             <p style="text-align: right; font-size: 10px; margin-right: 10%;">Creador</p>
@@ -64,16 +70,21 @@
         <div class="clear"></div>
     </section>
 
+    <!-- Se decide utilizar details para las referencias con el objetivo de que no sea muy invasivo con el diseño -->
     <details>
         <summary>Referencias.</summary>
         <ol>
+            <li>Documentación, ejemplos y buenas practicas en los que se apoyó para el desarrollo: <a href="https://www.w3schools.com" target="_blank">https://www.w3schools.com</a>.</li>
+            <br>
             <li>Logo y diseño propio.</li>
         </ol>
     </details>
     
+    <!-- El footer delimitado por una linea para diferenciar del cuerpo de la pagina -->
     <div class="horizontal_delimiter"></div>
     <footer>
         <div id="container_footer">
+            <!-- Nombre de la pagina, se decide no usar el logo para no sobrecargar al usuario -->
             <div class="content_info_footer">
                 <h1 id="footer_subtitle">Contacto creador</h1>
                 <br>
@@ -84,6 +95,7 @@
                     Universidad de Antioquia
                 </p>
             </div>
+            <!-- La navegación permite acceder a cualquier pagina desde cualquier otra -->
             <div class="content_info_footer">
                 <h1 id="footer_subtitle">Navegación</h1>
                 <br>
@@ -95,6 +107,7 @@
                     <a class="link_nav" href="./profile.html" target="_self">Perfil social</a><br>
                 </p>
             </div>
+            <!-- Información del creador -->
             <div class="content_title_footer">
                 <h1 class="footer_title" style="font-size: 50px;">PolaNet</h1>
                 <h5 class="footer_title">Red social cervecera</h5>

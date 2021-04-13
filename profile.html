@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta -->
     <meta charset="UTF-8">
     <meta name="keywords" content="html frontend web programming socialnetwork">
     <meta charset="author" content="SantiagoTabordaE">
+    
     <title>PolaNet Perfil</title>
+    
+    <!-- Style -->
     <link rel="icon" type="image/png" href="./media/beer.png" />
     <link rel="stylesheet" type="text/CSS" href="./css/profile.css" media="screen">
     <link rel="stylesheet" type="text/CSS" href="./css/news.css" media="screen">
     <link rel="stylesheet" type="text/CSS" href="./css/header_footer.css" media="screen">
 </head>
 <body>
-    <header id="general_header">
+    <header id="general_header"><!-- Header para todas las paginas excluyendo el inicio y el registro -->
         <img id="general_header_title" src="./media/logo images/polanet_bubbles.png" alt="The title of the page but in a image more cute">
-        <nav>
+        <nav><!-- Barra de navegacion -->
             <a class="nav_bar" href="./index.html" target="_self">Inicio</a>|
             <a class="nav_bar" href="./form.html" target="_self">Registro</a>|
             <a class="nav_bar" href="./feed.html" target="_self">Feed</a>|
@@ -23,17 +27,20 @@
         <div class="horizontal_delimiter_top"></div>
         <div class="clear"></div>
     </header>
-    <section>
+    
+    <section><!-- Este section actua como body pues al colocar el header en fixed cambia el plano z -->
         <article>
             <div id="header_profile">
-                <img id="header_banner_profile" src="./media/images/profile/banner.jpg" alt="Banner for the profile">
+                <!-- Para lograr el efecto de opacidad y la foto de perfil en la mitad se hace necesario usar caracteristicas que modifican el plano z -->
+                <!-- Para evitar que este header del perfil quede en el mismo plano que el header principal se usa css en el header principal -->
+                <img id="header_banner_profile" src="./media/images/profile/banner.jpg" alt="Banner for the profile"><!-- Imagen de portada, es un fondo opaco -->
                 <div class="header_container">
-                    <img id="header_title" src="./media/images/profile/profile.jpg" alt="Picture of the profile">
+                    <img id="header_title" src="./media/images/profile/profile.jpg" alt="Picture of the profile"><!-- Imagen de perfil -->
                 </div>
             </div>
 
-            <div id="feed_profile">
-                <div id="publications">
+            <div id="feed_profile"><!-- Contenedor con todas las publicaciones hechas por el usuario y la informacion del usuario -->
+                <div id="publications"><!-- Publicaciones, columna 1 -->
                     <div class="new_profile" style="margin-top: 3%;">
                         <img class="img_new_profile" src="./media/images/profile/new_1.jpg" alt="Picture from Taechsantiago">
                         <div class="text_new">
@@ -93,7 +100,7 @@
                         <div class="clear"></div>
                     </div>
                 </div>
-                <aside>
+                <aside><!-- Información general del perfil, columna dos -->
                     <div class="new_profile" style="margin-top: 3%;">
                         <h1 style="margin-left: 2%;">Información del usuario</h1>
                         <ul>
@@ -107,6 +114,12 @@
                                     <li>Lamber</li>
                                 </ol>
                             </li>
+                            <li>Canción elegida para una buena pola:<br>
+                                <audio controls>
+                                    <source src="./media/images/profile/song.mp3" type="audio/mpeg">
+                                  Your browser does not support the audio element.
+                                </audio>
+                            </li>
                         </ul>
                     </div>
                 </aside>
@@ -116,16 +129,21 @@
         <div class="clear"></div>
     </section>
 
+    <!-- Se decide utilizar details para las referencias con el objetivo de que no sea muy invasivo con el diseño -->
     <details>
         <summary>Referencias.</summary>
         <ol>
+            <li>Documentación, ejemplos y buenas practicas en los que se apoyó para el desarrollo: <a href="https://www.w3schools.com" target="_blank">https://www.w3schools.com</a>.</li>
+            <br>
             <li>Logo, diseño y contenido propio.</li>
         </ol>
     </details>
 
+    <!-- El footer delimitado por una linea para diferenciar del cuerpo de la pagina -->
     <div class="horizontal_delimiter"></div>
     <footer>
         <div id="container_footer">
+            <!-- Nombre de la pagina, se decide no usar el logo para no sobrecargar al usuario -->
             <div class="content_info_footer">
                 <h1 id="footer_subtitle">Contacto creador</h1>
                 <br>
@@ -136,6 +154,7 @@
                     Universidad de Antioquia
                 </p>
             </div>
+            <!-- La navegación permite acceder a cualquier pagina desde cualquier otra -->
             <div class="content_info_footer">
                 <h1 id="footer_subtitle">Navegación</h1>
                 <br>
@@ -147,6 +166,7 @@
                     <a class="link_nav" href="./profile.html" target="_self">Perfil social</a><br>
                 </p>
             </div>
+            <!-- Información del creador -->
             <div class="content_title_footer">
                 <h1 class="footer_title" style="font-size: 50px;">PolaNet</h1>
                 <h5 class="footer_title">Red social cervecera</h5>

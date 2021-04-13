@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta -->
     <meta charset="UTF-8">
     <meta name="keywords" content="html frontend web programming socialnetwork">
     <meta charset="author" content="SantiagoTabordaE">
+    
     <title>PolaNet Catálogo</title>
+    
+    <!-- Style -->
     <link rel="icon" type="image/png" href="./media/beer.png" />
     <link rel="stylesheet" type="text/CSS" href="./css/calog.css" media="screen">
     <link rel="stylesheet" type="text/CSS" href="./css/header_footer.css" media="screen">
 </head>
 <body>
-    <header id="general_header">
-        <img id="general_header_title" src="./media/logo images/polanet_bubbles.png" alt="The title of the page but in a image more cute">
-        <nav>
+    <header id="general_header"><!-- Header para todas las paginas excluyendo el inicio y el registro -->
+        <img id="general_header_title" src="./media/logo images/polanet_bubbles.png" alt="The title of the page but in a image more cute"><!-- Logo -->
+        <nav><!-- Barra de navegacion -->
             <a class="nav_bar" href="./index.html" target="_self">Inicio</a>|
             <a class="nav_bar" href="./form.html" target="_self">Registro</a>|
             <a class="nav_bar" href="./feed.html" target="_self">Feed</a>|
@@ -23,8 +27,8 @@
         <div class="clear"></div>
     </header>
 
-    <section>
-        <article>
+    <section><!-- Este section actua como body pues al colocar el header en fixed cambia el plano z -->
+        <article><!-- Contenedor de todas cervezas en mosaico -->
             <div class="new">
                 <figure>
                     <img class="img_new" src="./media/images/3co/blanca.jpg" alt="Picture of 3Cordilleras beer Blanca">
@@ -134,6 +138,7 @@
         <div class="clear"></div>
     </section>
 
+    <!-- Se decide utilizar details para las referencias con el objetivo de que no sea muy invasivo con el diseño -->
     <details>
         <summary>Referencias.</summary>
         <ol>
@@ -143,13 +148,17 @@
             <br>
             <li>Foto recuperada del perfil en  Instagram <a href="https://www.instagram.com/20missioncerveza/" target="_blank">https://www.instagram.com/20missioncerveza/</a>. Cervecería 20Mission</li>
             <br>
+            <li>Documentación, ejemplos y buenas practicas en los que se apoyó para el desarrollo: <a href="https://www.w3schools.com" target="_blank">https://www.w3schools.com</a>.</li>
+            <br>
             <li>Logo y diseño propio.</li>
         </ol>
     </details>
 
+    <!-- El footer delimitado por una linea para diferenciar del cuerpo de la pagina -->
     <div class="horizontal_delimiter"></div>
     <footer>
         <div id="container_footer">
+            <!-- Nombre de la pagina, se decide no usar el logo para no sobrecargar al usuario -->
             <div class="content_info_footer">
                 <h1 id="footer_subtitle">Contacto creador</h1>
                 <br>
@@ -160,6 +169,7 @@
                     Universidad de Antioquia
                 </p>
             </div>
+            <!-- La navegación permite acceder a cualquier pagina desde cualquier otra -->
             <div class="content_info_footer">
                 <h1 id="footer_subtitle">Navegación</h1>
                 <br>
@@ -171,6 +181,7 @@
                     <a class="link_nav" href="./profile.html" target="_self">Perfil social</a><br>
                 </p>
             </div>
+            <!-- Información del creador -->
             <div class="content_title_footer">
                 <h1 class="footer_title" style="font-size: 50px;">PolaNet</h1>
                 <h5 class="footer_title">Red social cervecera</h5>
