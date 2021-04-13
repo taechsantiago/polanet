@@ -1,0 +1,64 @@
+/* Tags */
+body{
+    background-color: #efa53d;
+}
+p{text-align: justify;}
+/* TAG#ID and TAG.Class*/
+div.new{
+    width: 94%;
+    height: 15%;
+    margin: 5% 2%;
+    border: 1px;
+    border-radius: 3px;
+    border-color: rgb(121, 118, 118);
+    border-style: solid;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.26);
+}
+div.new_profile{
+    width: 94%;
+    height: 15%;
+    margin: 5% 2%;
+}
+div.text_new{
+    width: 70%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    float: left;
+}
+img.img_new{
+    width: 25%;
+    margin-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    float: right;
+}
+
+/* Father and child */
+div.new h1, div.new_profile h1{
+    margin-top: 2%;
+}
+div.new ul, div.new_profile ul{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+div.new ul li, div.new_profile ul li{
+    margin: 5% 2%;
+    padding: 0%;
+    list-style: none;
+}
+aside div.new{
+    width: 90%;
+    height: 90%;
+    margin: 5% 2%;
+    border: 1px;
+    border-color: rgb(121, 118, 118);
+    border-style: solid;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.26);
+}
+aside div.new_profile{
+    width: 90%;
+    height: 90%;
+    margin: 5% 2%;
+}

@@ -1,9 +1,6 @@
 /* Tags */
-body{
-    background-color: #efa53d;
-}
+body{background-color: #efa53d;}
 p{text-align: justify;}
-
 article{
     margin-top: 10%;
     background-color: white;
@@ -41,7 +38,7 @@ img.img_new{
     align-items: center;
     justify-content: center;
 }
-div.horizontal_delimiter_calog{
+hr{
     background-color: rgb(121, 118, 118);
     height: 1px;
     width: 97%;
