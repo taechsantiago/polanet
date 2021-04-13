@@ -19,6 +19,11 @@ footer{
     padding-bottom: 2%;
     background: linear-gradient(#ffffff, #efa53d);
 }
+details{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
 
 /* Classs and ID*/
 .footer_title{
@@ -108,4 +113,8 @@ div.horizontal_delimiter_top{
 }
 div.clear{
     clear: both;
+}
+
+details li a{
+    color: black;
 }
